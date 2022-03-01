@@ -14,8 +14,8 @@ mix
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'resources/vue'),
-        '~': path.resolve(__dirname, 'resources/vue'),
+        '@': path.resolve(__dirname, 'vue'),
+        '~': path.resolve(__dirname, 'vue'),
         '@sass': path.resolve(__dirname, 'resources/assets/sass'),
       },
     },
