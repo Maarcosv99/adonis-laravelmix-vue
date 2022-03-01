@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently --kill-others \"node ace serve --watch\" \"node ace mix:watch --hot\"",
-    "build": "node ace build --production",
+    "build": "concurrently --kill-others \"node ace build --production\" \"node ace mix:build --production\"",
     "start": "node server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."

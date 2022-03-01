@@ -13,6 +13,13 @@ npm i
 ```
 
 3. Run
+
+Development:
 ```
 npm run dev
+```
+
+Production:
+```
+npm run build
 ```
